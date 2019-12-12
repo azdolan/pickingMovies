@@ -28,7 +28,7 @@
             <p><strong>Staring: </strong><span id="actors"></span></p>
             <p><strong>Director: </strong><span id="director"></span></p>
             <p><strong>Rating: </strong><span id="rating"></span>/10</p>
-            <a class="btn btn-dark" href="./index.html">Back</a>
+            <a class="btn btn-dark" href="https://azdolan.github.io/pickingMovies/index.html">Back</a>
 
 
           </div>
@@ -50,7 +50,7 @@
       var url = window.location.href;
       var searchString = url.split('?');
       searchString = searchString[1]
-      url = "https://www.omdbapi.com/?i="+searchString+"&apikey=35ed958c";
+      url = "https://www.omdbapi.com/?i="+searchString+"&apikey=1f46c9c";
       console.log(url);
       fetch(url)
         .then((resp) => resp.json())
